@@ -100,3 +100,13 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .homeImg {
+    display: none;
+  }
+
+  .aboutImg {
+    max-width: 340px;
+  }
+}
